@@ -1,8 +1,5 @@
 { pkgs }: {
-  deps = [
-    pkgs.nodejs
-    pkgs.bashInteractive
-    pkgs.nodePackages.bash-language-server
-    pkgs.man
-  ];
+    deps = [
+        pkgs.nodejs-18_x
+    ];
 }
